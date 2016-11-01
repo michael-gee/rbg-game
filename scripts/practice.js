@@ -13,6 +13,8 @@ function generateColor(currentMode, colorGen) {
   for(let d = 0; d <= 5; d++){
     document.getElementById(d.toString()).className = "color";
   }
+  
+  document.querySelector("header").style.backgroundColor = "#4178AA";
 
   // instatiating variables and assigning them to their rgb color value and hex values
   let red, green, blue;
@@ -93,13 +95,14 @@ function guessColor(id){
 if(id !== correctColor) {
     document.querySelector(".status").className = "status";
     document.querySelector(".status").innerHTML = "Try Again!";
-
     document.getElementById(idNum).className = "color none";
   }
 
   if(id === correctColor){
     document.querySelector(".status").className = "status";
     document.querySelector(".status").innerHTML = "<strong>Correct!</strong>";
+    document.querySelector("header").style.backgroundColor = correctColor;
+    
     alert("Correct! Click 'NEW COLORS to play again!'");
   }
 }
