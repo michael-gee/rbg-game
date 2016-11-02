@@ -103,6 +103,6 @@ if(id !== correctColor) {
     document.querySelector(".status").innerHTML = "<strong>Correct!</strong>";
     document.querySelector("header").style.backgroundColor = correctColor;
     
-    alert("Correct! Click 'NEW COLORS to play again!'");
+    alert("Correct! Click 'NEW COLORS' to play again!");
   }
 }
