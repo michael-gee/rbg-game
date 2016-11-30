@@ -3,6 +3,9 @@ body {
   margin: 0;
   font-family: arial, serif;
   font-size: 62.5%;
+  height: 100vh;
+  background-size: cover;
+  background-color: #1F1F1F;
 }
 
 .right {
@@ -32,7 +35,7 @@ h2 {
 /* HEADER */
 header {
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
   background-color: #4178AA;
   color: white;
 }
@@ -40,6 +43,10 @@ header {
 /* NAV */
 nav {
   padding: 10px;
+  background-color: white;
+}
+
+.nav {
   width: 450px;
   margin: 0 auto;
 }
@@ -73,25 +80,24 @@ nav {
 
 /* COLORS SECTION */
 .container {
-  height: 85vh;
   background-color: #1F1F1F;
 }
 
 .colors-container {
   width: 800px;
   margin: 0 auto;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .row {
   width: 800px;
   margin: 0 auto;
-  padding-bottom: 25px;
+  padding-bottom: 15px;
 }
 
 .color {
   width: 230px;
-  height: 240px;
+  height: 160px;
   margin: 15px;
   background-color: #4178AA;
   border-radius: 5%;
