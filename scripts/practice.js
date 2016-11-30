@@ -88,6 +88,7 @@ function generateCorrectColor(num){
 
 generateColor(currentMode, colorVal);
 
+// Function that is triggered when user clicks color box to guess Color
 function guessColor(id){
   let idNum = id;
   id = document.getElementById(id).style.backgroundColor;
@@ -105,4 +106,4 @@ if(id !== correctColor) {
     
     alert("Correct! Click 'NEW COLORS' to play again!");
   }
-}
+}// guessColor() function end
